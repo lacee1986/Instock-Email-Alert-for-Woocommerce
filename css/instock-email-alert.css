@@ -1,0 +1,15 @@
+/**
+* Plugin Name: Instock Email Alert for Woocommerce
+* Plugin URI: https://wordpress.org/plugins/instock-email-alert-for-woocommerce/
+* Description: Sends an email alert for the subscribed users when the product is in stock.
+* Version: 1.0
+* Author: Laszlo Kruchio
+*/
+
+.alert_wrapper {float: left; width: 100%; position: relative; display: block; padding-right: 0px; margin:15px 0;}
+.alert_wrapper.active {bottom:0px;}
+.alert_wrapper input[type='email'] {width: 100%; max-width: 300px; line-height: 50px; height: 50px; padding: 0 10px; margin-bottom: 15px; outline: none; border:1px solid #E5E5E5;}
+.alert_wrapper input[type='submit'] {width: 100%; max-width: 300px; position: static; right: 0px; top:0px; height: 50px; line-height: 50px; margin: 0 !important; border: 0; padding: 0 10px; font-size: 14px; color:#FFFFFF; text-transform: uppercase; font-weight: bold; background:#69be28;}
+.alert_wrapper input[type='submit']:hover, .alert_wrapper input[type='submit']:active, .alert_wrapper input[type='submit']:focus {background: #003f72;}
+.instock_message {max-width: 300px; width: 100%; float: left; margin:0 0 15px; border: 1px solid #69be28; font-size: 14px; color:#000000; padding: 10px;}
+.instock_message.error {border-color:red;}
